@@ -5,6 +5,9 @@ void main() {
   double temperature = 36.6;
   bool lovesCoding = true;
 
+  var variable = lastName..contains('T')..contains('m');
+
+  print(variable);
   print("name: $firstName");
   print("last name: $lastName");
   print("age: $age");
